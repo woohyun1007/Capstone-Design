@@ -1,0 +1,80 @@
+.MyPage {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+
+.profile > img {
+  width: 400px;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.profileInfo > section {
+  margin-bottom: 20px;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.section1 > p {
+  font-size: 10px;
+  margin: 0px 10px;
+}
+
+.section1 > img {
+  width: 30px;
+  height: 30px;
+}
+
+.section2 {
+  width: 550px;
+  height: 120px;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+.section2 > p {
+  margin: 10px;
+}
+
+.section3 > p {
+  margin-top: 10px;
+}
+
+.section4 > img {
+  width: 50px;
+  margin-top: 10px;
+}
+
+.userProject {
+  display: flex;
+  margin: 40px 50px;
+}
+
+.userProject > .presentProject {
+  margin: 0px 30px;
+}
+
+.userProject h3 {
+  text-decoration-line: underline;
+  text-underline-offset: 7px;
+}
+
+.userProject img {
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+}
