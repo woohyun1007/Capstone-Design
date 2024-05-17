@@ -45,10 +45,10 @@ function Search() {
   }
   function handleChange4(event) {
     if (event.target.value === "조회수") {
-      setView("조회수");
+      setViews("조회수");
       copydata = s.sort((a, b) => a.views - b.views);
     } else if (event.target.value === "높은순") {
-      setView("높은순");
+      setViews("높은순");
       copydata = s.sort((a, b) => b.views - a.views);
     }
   }
@@ -71,11 +71,11 @@ function Search() {
       } else return 0;
     })
     .filter((project) => {
-      if (view === "") {
+      if (views === "") {
         return project;
-      } else if (view === "조회수") {
+      } else if (views === "조회수") {
         return project;
-      } else if (view === "높은순") {
+      } else if (views === "높은순") {
         return project;
       } else return 0;
     })

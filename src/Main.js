@@ -12,6 +12,9 @@ import RegisterPage from "./pages/RegisterPage";
 import KakaoRedirectPage from "./pages/KakaoRedirectPage";
 import QuestionPage from "./pages/question/ListPage";
 import QuestionRead from "./pages/question/ReadPage";
+import FreeBoard from "./pages/FreeBoard";
+import BoardInformation from "./pages/BoardInformation";
+import Applycation from "./pages/Applycation";
 
 function Main() {
   return (
@@ -27,6 +30,7 @@ function Main() {
           <Route path="/RegisterProject" element={<RegisterProject />} />
           <Route path="/UpdateProject/:idx" element={<UpdateProject />} />
           <Route path="/ProjectInformation/:idx" element={<ProjectDetail />} />
+          <Route path="/Applycation/:idx" element={<Applycation />} />
           <Route path="/MyPage" element={<MyPage />} />
           <Route path="/LoginPage" element={<LoginPage />} />
           <Route

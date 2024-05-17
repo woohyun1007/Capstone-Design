@@ -12,6 +12,10 @@ const Project = ({ title, content }) => {
   const moveToUpdate = () => {
     navigate(`/UpdateProject/${idx}`);
   };
+  const moveToApply = () => {
+    navigate(`/Applycation/${idx}`);
+  };
+
 
   //게시글 삭제하기
   const deleteProject = async () => {
@@ -53,7 +57,7 @@ const Project = ({ title, content }) => {
             <div className={styles.contents}>
               <div className={styles.recruitmentDiv}>
                 <p>지원</p>
-                <button>지원</button>
+                <button onClick={moveToApply}>지원</button>
               </div>
             </div>
           </div>

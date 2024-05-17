@@ -19,7 +19,7 @@ function ProjectListPage() {
 
   return (
     <body>
-      <div className={styles.projectListPage}>
+      <div className={styles.ProjectListPage}>
         {projectList.map((project) => (
           <Link to={`/ProjectInformation/${project.id}`}>
             <p key={project.id}>{project.title}</p>

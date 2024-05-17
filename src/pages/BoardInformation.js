@@ -15,8 +15,8 @@ function BoardInformation() {
       element={<ProjectInformationPage />}
     />
     Main.js에서 내가 동적 매개변수의 값을 :projectSlug로 지정했기 때문*/
-  const { boardslug } = useParams();
-  const board = getBoardBySlug(boardslug);
+  /*const { boardslug } = useParams();
+  const board = getBoardBySlug(boardslug);*/
 
   return (
     <>
